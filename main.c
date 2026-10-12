@@ -7,7 +7,6 @@ int main(void) {
 
     printf("値段を入れてください: ");
     scanf("%d",&i);
-    
-    printf("このお菓子は税込み%f円だよ",i * 1.1); 
+    printf("このお菓子は税込み%d円だよ",i / 10 + i); 
     return 0;
 }
