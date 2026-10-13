@@ -3,10 +3,7 @@
 int main(void) {
     /* 課題0301: prinfのカッコの中を記入して、変数iの中身を表示させてください */
     int i;
-    i = 100;
-
-    printf("値段を入れてください: ");
     scanf("%d",&i);
-    printf("このお菓子は税込み%d円だよ",i / 10 + i); 
+    printf("%d\n",i); 
     return 0;
 }
